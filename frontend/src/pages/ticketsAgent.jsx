@@ -35,10 +35,10 @@ const TicketsAgent = (props) => {
   return (
     <>
       <Link
-        to="/"
+        to="/ticketsall"
         className="btn flex items-center border-[0.1rem] w-40 justify-center m-10"
       >
-        <FaArrowCircleLeft /> Back
+        refresh
       </Link>
       <h1 className=" text-center text-4xl font-bold mb-4">Tickets</h1>
       <div className="tickets flex flex-col">

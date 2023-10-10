@@ -93,7 +93,7 @@ const TicketAgent = (props) => {
     );
 
     if (response.data) {
-      navigate("/tickets");
+      navigate("/ticketsall");
     }
   };
 
